@@ -1,0 +1,13 @@
+<div class="main">
+    <a href='/' class="main-Logo app-href">nullBrains</a>
+    <ul class="app-link">
+        <li *ngFor="let appLink of navLinks">
+            <a [ngClass]="appLink.url == '/home' ? 'active' : ''" href="{{appLink.url}}" class="app-href">{{appLink.title}}</a>
+        </li>
+        <li><a href="/search" target="_blank"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+    </ul>
+    <div>
+        <a href='/login' class="app-login app-href">Sign In</a>
+        <a href='/signup' class="app-signup app-href">Sign Up</a>
+    </div>
+</div>

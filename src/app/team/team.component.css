@@ -1,0 +1,40 @@
+.main{
+    display: flex;
+    padding-top: 48px;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 24px;
+}
+.header p{
+    color: blue;
+}
+.header h2{
+    font-size: 34px;
+    max-width: 350px;
+    margin: 3px;
+}
+.right-style{
+    background: lightblue;
+    height: 100px;
+    width: 300px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.team-list{
+    display: flex;
+    margin-bottom: 8px;
+}
+.column{
+    padding: 8px;
+    width: 25%;
+    margin-right: 8px;
+    text-align: center;
+}
+.card p{
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 4px;
+}
+.title{
+    color: blue;
+}

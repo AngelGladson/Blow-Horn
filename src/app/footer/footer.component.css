@@ -1,0 +1,12 @@
+/* .main{
+    width:1000px;
+} */
+.footer-link{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.footer-link a{
+    text-decoration: none;
+    margin-right: 10px;
+}

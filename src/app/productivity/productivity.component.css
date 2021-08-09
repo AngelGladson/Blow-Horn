@@ -1,0 +1,19 @@
+.productivity{
+    display: flex;
+}
+.content , .contentImg{
+    width: 50%;
+}
+.contentImg{
+    text-align: center;
+}
+.content h3{
+    font-size: 26px;
+}
+.content p{
+    font-size: 20px;
+}
+.content ul {
+    padding-left: 20px;
+    color: grey;
+}
